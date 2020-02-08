@@ -231,15 +231,15 @@ void setup ( void ) {
 }
 
 void loop ( void ) {
-    if ( digitalRead(CONFIG_PIN) == LOW ) {
-        WiFiManager wifiManager;
-        if (!wifiManager.startConfigPortal("NeoLamp-WifiConfig")) {
-            Serial.println("failed to connect and hit timeout");
-            delay(3000);
+//    if ( digitalRead(CONFIG_PIN) == LOW ) {
+//        WiFiManager wifiManager;
+//        if (!wifiManager.startConfigPortal("NeoLamp-WifiConfig")) {
+//            Serial.println("failed to connect and hit timeout");
+//            delay(3000);
             //reset and try again, or maybe put it to deep sleep
-            Serial.println("Moving on...");
-        }
-    }
+//            Serial.println("Moving on...");
+//        }
+//    }
 	mdns.update();
 	server.handleClient();
 

@@ -21,7 +21,7 @@ const char page_contents[] PROGMEM = R"=====(
 <html>
 <body>
     <p align='center'>
-    <id='brightness_page'> <strong style='font-size:400%'> RGB Lamp 1 </strong>
+    <id='brightness_page'> <strong style='font-size:400%'> NeoLamp </strong>
     <BR>
     <BR>
     <p align='center'>
