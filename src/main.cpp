@@ -39,8 +39,8 @@ byte index_end;
 // END OF CANDLE MODE RELATED STUFF ////////////////////////////////////////////////////
 
 WiFiManager wifiManager;
-//const char *ssid = "BDV_OR";
-//const char *password = "bdvavcx613";
+//const char *ssid = "WIFI_AP";
+//const char *password = "WIFI_PASS";
 MDNSResponder mdns;
 
 ESP8266WebServer server ( 80 );
